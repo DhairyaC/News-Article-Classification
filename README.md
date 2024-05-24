@@ -9,5 +9,13 @@
 4. Try a couple of different language models (GPT-J and GPT-Sw3) to gain a better understanding.
 
 ## Techniques/Models
+1. Techniques:
+   - Web Scraping
+   - Tokenization
+   - Model optimization
+2. Models:
+   - Albert-base-v2 (a pre-trained model for sequence classification from Hugging Face Transformers)
+   - GPT-J
+   - GPT-Sw3
 
 ## Findings
