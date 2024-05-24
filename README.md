@@ -13,9 +13,13 @@
    - Web Scraping
    - Tokenization
    - Model optimization
+   - Performance evaluation
 2. Models:
    - Albert-base-v2 (a pre-trained model for sequence classification from Hugging Face Transformers)
    - GPT-J
    - GPT-Sw3
 
 ## Findings
+1. After training the Albert-base-v2 model with 20 epochs, we observe a decrease in the training loss at each step. The accuracy obtained was 85%, which is higher than the accuracy obtained with 4 epochs. However, we could have achieved even higher accuracy if we had used a larger model or added regularization techniques like dropout to prevent overfitting. We could further experiment different batch sizes. A smaller batch size may allow the model to generalize better.
+2. GPT-J is computationally expensive since the model requires around 24.2 GB of memory space to download. It is too big to be used on regular hardware: wouldn’t fit in RAM.
+3. GPT-Sw3 is not released publicly: requires token access.
