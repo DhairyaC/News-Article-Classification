@@ -1,7 +1,3 @@
-## Overview
-
-## Goal
-
 ## Objectives
 1. Perform web scraping to extract data (Business and News articles) from News API. It should contain at least 1000 words in total and at least two categories with at least 100 examples per category.
 2. Split the dataset into training (at least 160 examples) and test (at least 40 examples) sets.
